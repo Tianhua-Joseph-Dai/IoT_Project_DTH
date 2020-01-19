@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: schiene
+Version: 0.23
+Summary: schiene is a Python library for interacting with Bahn.de
+Home-page: https://github.com/kennell/schiene
+Author: Kevin Kennell
+Author-email: kevin@kennell.de
+License: MIT
+Keywords: bahn,api
+Platform: UNKNOWN
+Requires-Dist: requests (>=2.10.0)
+Requires-Dist: beautifulsoup4 (>=4.4.1)
+
+UNKNOWN
+
+

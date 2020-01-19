@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e016e339-45c1-419f-8303-519635c387f3" name="DTH_Azure" url="http://52.170.197.118">
+        <fileTransfer host="52.170.197.118" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a5dc58c3-1fbe-4bbc-b107-f872d63ab3a0" name="DTH_Pi" url="http://192.168.1.104">
+        <fileTransfer host="192.168.1.104" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="175d8fbb-f6c6-4455-9bf8-d62c22cd191b" name="DTH_Pi_Phone" url="http://172.20.10.3">
+        <fileTransfer host="172.20.10.3" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
