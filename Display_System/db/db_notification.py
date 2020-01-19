@@ -1,7 +1,6 @@
 import schiene
 import credentials
 import datetime
-from pprint import pprint
 from prettytable import PrettyTable
 import yagmail
 

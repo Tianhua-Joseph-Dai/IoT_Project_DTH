@@ -4,8 +4,6 @@ from datetime import date, datetime
 import credentials
 import time
 import calendar
-import sys
-from threading import Thread
 
 sense = SenseHat()
 

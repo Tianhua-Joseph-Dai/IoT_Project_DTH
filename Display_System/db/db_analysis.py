@@ -1,9 +1,9 @@
 import credentials
 import os
-import db_basic_datas
+import db_basic_data
 import time
 from datetime import datetime, timedelta
-from db_basic_datas import Basis_Data_From_User, Basis_Data_From_Schine
+from db_basic_data import Basis_Data_From_User, Basis_Data_From_Schine
 from elasticsearch import Elasticsearch
 
 TOPIC_PREFIX = "dth_IoT_Project_"
